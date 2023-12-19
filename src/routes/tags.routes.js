@@ -9,4 +9,4 @@ const tagsController = new TagsController();
 
 tagsRoutes.get('/', ensureAuthenticated, tagsController.index);
 
-module.exports = tagsRoutes
+module.exports = tagsRoutes;
